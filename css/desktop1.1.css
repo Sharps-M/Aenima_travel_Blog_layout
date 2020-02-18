@@ -1,0 +1,191 @@
+.body {
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  max-width: 1366px;
+  margin: auto;
+}
+
+/*====Page Header===*/
+
+.container-fluid.background {
+  height: 1300px;
+  background-color: #EBEBEB;
+  background-size: 0px 2165px;
+  margin-bottom: 200px;
+}
+
+.jumbotron.jumbotron-fluid.first {
+  font-family: 'Montserrat', Bold !important;
+  color: white;
+  font-weight: bolder;
+  margin-top: -30px;
+  height: 730px;
+  max-width: 1366px;
+  background-image: url('../img/hero.jpg');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.container.first {
+  margin-left: 140px;
+  margin-top: 240px;
+}
+
+/*====Jumbotron Card====*/
+.card.header {
+  font-family: 'Montserrat', sans-serif !important;
+  border-color: grey;
+  background-color: rgba(41, 41, 41, 0.5);
+  border-style: dashed;
+  border-width: 2px;
+  margin-left: 917px;
+}
+
+.card-title {
+  width: auto;
+  height: auto;
+  color: #FA6980;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.card-subtitle {
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.card-text {
+  color: white;
+  font-size: 14px;
+}
+
+/*===Tendencias===*/
+
+.container-fluid.tendencias {
+  padding-top: -50%;
+  margin-left: 140px;
+  margin-right: 50%;
+  justify-items: center;
+
+}
+
+/*===Tendencias Cards===*/
+.col-sm-3 {
+  margin-right: 16px;
+  margin-left: 16px;
+
+}
+
+.col-sm-3.beach {
+  
+  
+}
+
+col-sm-3-snow {
+  
+}
+
+.row {
+
+}
+
+.btn.btn-primary.btn-pink {
+  font-family: 'Montserrat', Bold;
+  font-weight: bolder;
+  position: static;
+  background-color: #FA6980;
+  border-color: #FA6980;
+  margin-top: -75%;
+}
+
+.card-title.tendencias {
+  margin-top: 20px;
+  font-family: 'Montserrat', Bold;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #2A3037;
+}
+
+.card.tendencias-1 {
+  height: 315px;
+  width: 352px;
+}
+
+.card.tendencias-2 {
+  height: 315px;
+  width: 352px;
+}
+
+/*===Blog Section===*/
+.jumbotron.jumbotron-fluid.city {
+  margin-left: 140px;
+  font-family: 'Montserrat', Bold !important;
+  color: white;
+  height: 430px;
+  width: 720px;
+  background-image: url('../img/articulo_big_01.png');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.jumbotron.jumbotron-fluid.adventure {
+  margin-left: 140px;
+/*  position: absolute;*/
+  font-family: 'Montserrat', Bold !important;
+  color: white;
+  height: 430px;
+  width: 720px;
+  background-image: url('../img/articulo_big_02.png');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.blogtitle {
+  margin-left: 10%;
+  font-weight: bolder;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/*===Blog Cards===*/
+.card-title.blog {
+  color: #202124;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+
+.card.blog-1 {
+  border-color: transparent;
+  width: 352px;
+  height: 270px;
+  margin-bottom: 35px;
+}
+/*===FOOTER===*/
+
+.footer{
+  color: grey;
+  font-weight: bolder;
+  background-color: #2A3037;
+  height: 96px;
+  margin-bottom: 20px;
+}
+
+.container.container-fluid.footer {
+  padding-top: 2.5%;
+}
+
+.footer-icon-2 {
+  margin-left: 85%;
+  padding-right: 15px;
+}

@@ -1,0 +1,83 @@
+#wrap{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -500px; 
+}
+
+.jumbotron.start-image {
+    background-image: url('img/hero_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.container.main{
+    width: 85%;    
+}
+
+.container.second{
+    width: 50%;
+    margin-top: -2%;
+}
+
+.jumbotron.second{
+    padding-bottom: 20%;
+}
+
+.container.third{
+    font-family: 'Montserrat';
+    max-width: 85%;
+    margin-left: 17%;
+    margin-top: -15%;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-72 { font-size: 72px; }
+
+hr {
+    background-color: white;
+}
+
+.display-4{
+    font-weight: 600 !important;
+}
+
+.sub{
+    font-weight: 600
+}
+
+.harder{
+    font-weight: 700
+}
+
+.card{
+    height: 314px;
+}
+
+.card.bridge{
+    background-image: url('img/hero_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card.elephant{
+    background-image: url('img/articulo_small_01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 2;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 2;
+    }
+  }
+

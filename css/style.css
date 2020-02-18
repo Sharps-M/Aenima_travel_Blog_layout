@@ -1,0 +1,16 @@
+.body {
+    width: 1366px;
+    justify-content: center;
+}
+
+.nav-bar {
+    width: 1366px;
+    margin: auto;
+
+}
+
+.d-inline-block {
+    margin-left: 138px;
+    width: 101px;
+    height: 18px;
+}

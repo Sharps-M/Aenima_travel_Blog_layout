@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AENIMA_Front-end_prueba</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/desktop1.1.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="js/navbar.js"></script>
+</head>
+<body class="body">
+    <div class="flex-1">
+    <!--Nav Bar-->
+    <!-- Image and text -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+            <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Bootstrap
+            </a>
+        </nav>
+    <!--Nav-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron-text">
+                <h1 class="display-4"><i class="material-icons location">
+                    location_on
+                </i> AMERICA DEL SUR</h1>
+                <p class="lead">Lugares maravillosos por America del Sur</p>
+                <p style="margin-top: -2%;">_______________________________________________________________________</p>
+                <p>Estos son algunos lugares que elijen la mayoria de los turistas <br> que visitan america del sur</p>
+                <p class="lead">
+                </p>
+            </div>
+            <div class="card header" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">PROXIMA AVENTURA <i class="material-icons" style="font-size: small;">
+                    arrow_forward_ios
+                </i></h5>
+                <h6 class="card-subtitle" style="color: white;">Europa Meridional</h6>
+                <p class="card-text">Forman parte 20 paises. <br> ej España, Francia, Etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Seccion Tendencias-->
+<section class="tendencias">
+    <div class="container-fluid tendencias">
+        <h1>TENDENCIAS</h1>
+
+        <div class="row">  
+          <div class="col-sm-3 mountains">
+            <div class="card tendencias-1">
+                <img class="card-img-top" src="img/card_01.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title tendencias">Montañas y magia</h5>
+                  <p class="card-text" style="color: grey;">Aqui la descripcion para Montañas y magia</p>
+                  <a href="#" class="btn btn-primary btn-pink">NUEVO</a>
+                </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-3 beach">
+            <div class="card tendencias-2">
+                <img class="card-img-top" src="img/card_02.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title tendencias">Playas y sol</h5>
+                  <p class="card-text" style="color: grey;">Aqui la descripcion para Playas y sol.</p>
+                </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-3 snow">
+            <div class="card tendencias-2">
+                <img class="card-img-top" src="img/card_03.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title tendencias">Nieve y aventura</h5>
+                  <p class="card-text" style="color: grey;">Aqui la descripcion para Nieve y Aventura</p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+    </div>
+</section>
+<br>
+<section class="blog">
+  <h1>Blog</h1>
+  <div class="row">
+    <div class="col-8">
+        <div class="jumbotron jumbotron-fluid city">
+          <div class="container">
+            <div class="blog-text-main">
+              <h4 class="blog-main-title">CIUDAD</h4>
+              <h5 class="blog-main-article">
+                Articulo de puente
+                <small> <br> un puente es una construccion que
+                  permite salvar un accidente geografico
+                </small>
+              </h5>
+              <small class="text-muted"> <br> <i class="material-icons">
+                access_time
+                </i> hace 2min
+              </small>
+            </div>
+          </div>
+        </div>
+
+    <div class="jumbotron jumbotron-fluid adventure">
+      <div class="container">
+        <h4 class="blog-main-title">AVENTURA</h4>
+        <h5 class="blog-main-article">
+          Articulo de puente
+          <small> <br> un puente es una construccion que
+            permite salvar un accidente geografico
+          </small>
+        </h5>
+        <small class="text-muted"> <br> <i class="material-icons" style="font-size: 16px;">
+          access_time
+          </i> hace 2min
+        </small>
+      </div>
+    </div>
+  </div>
+  <div class="mini-col-blog">
+      <div class="col-4">
+        <div class="col-sm-3 snow">
+          <div class="card tendencias-2">
+              <img class="card-img-top" src="img/card_03.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title tendencias">Nieve y aventura</h5>
+                <p class="card-text" style="color: grey;">Aqui la descripcion para Nieve y Aventura</p>
+              </div>
+            </div>
+        </div>
+        <br>
+        <div class="col-sm-3 snow">
+          <div class="card tendencias-2">
+              <img class="card-img-top" src="img/card_03.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title tendencias">Nieve y aventura</h5>
+                <p class="card-text" style="color: grey;">Aqui la descripcion para Nieve y Aventura</p>
+              </div>
+            </div>
+        </div>
+        <br>
+        <div class="col-sm-3 snow">
+          <div class="card tendencias-2">
+              <img class="card-img-top" src="img/card_03.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title tendencias">Nieve y aventura</h5>
+                <p class="card-text" style="color: grey;">Aqui la descripcion para Nieve y Aventura</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<!-- Another Grid System
+<section>
+  <div id="grid">
+    <div>
+      <div class="col-sm-4" style="background-color:grey;">
+        <div class="card tendencias-1">
+            <img class="card-img-top" src="img/card_01.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title tendencias">Montañas y magia</h5>
+              <p class="card-text" style="color: grey;">Aqui la descripcion para Montañas y magia</p>
+              <a href="#" class="btn btn-primary btn-pink">NUEVO</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="col-sm-4" style="background-color:grey;">
+        <div class="card tendencias-1">
+            <img class="card-img-top" src="img/card_01.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title tendencias">Montañas y magia</h5>
+              <p class="card-text" style="color: grey;">Aqui la descripcion para Montañas y magia</p>
+              <a href="#" class="btn btn-primary btn-pink">NUEVO</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="col-sm-4" style="background-color:grey;">
+        <div class="card tendencias-1">
+            <img class="card-img-top" src="img/card_01.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title tendencias">Montañas y magia</h5>
+              <p class="card-text" style="color: grey;">Aqui la descripcion para Montañas y magia</p>
+              <a href="#" class="btn btn-primary btn-pink">NUEVO</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+-->
+<!--Bootstrap jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+</footer>
+</html>
+
+
+
+/*=========*/
+/*===CSS===*/
+/*=========*/
+.body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1366px;
+  margin: auto;
+}
+
+.flex-1 {
+  background-color: #EBEBEB;
+  display: flex;
+  flex-direction: column;
+  height: 1526px;
+}
+
+/* ====Nav Bar====*/
+
+
+/*====Jumbotron====*/
+.jumbotron.jumbotron-fluid {
+  font-family: 'Montserrat', Bold !important;
+  color: white;
+  height: 730px;
+  background-image: url('../img/hero.jpg');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.jumbotron-text {
+  margin-left: 140px;
+  margin-top: 240px;
+}
+
+.material-icons.location {
+  font-size: 40px;
+}
+
+.display-4 {
+  width: 530px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.lead {
+  width: 530px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.my-4 {
+  width: 530px;
+  color: white;
+  font-weight: 99999999;
+}
+
+/*====Jumbotron Card====*/
+.card.header {
+  /*position: absolute;*/
+  font-family: 'Montserrat', sans-serif !important;
+  border-color: grey;
+  border-style: dashed;
+  border-width: 2px;
+/*  margin-left: 917px; */
+  margin-left: 66%;
+  margin-top: 10px;
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+.card-title {
+  width: auto;
+  height: auto;
+  color: #FA6980;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.card-subtitle {
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.card-text {
+  color: white;
+  font-size: 14px;
+}
+
+/*===Tendencias===*/
+
+.container-fluid.tendencias {
+  padding-top: -50%;
+  margin-left: 140px;
+  margin-right: 50%;
+  justify-items: center;
+
+}
+
+/*===Tendencias Cards===*/
+.col-sm-3 {
+  margin-right: 16px;
+
+}
+
+.col-sm-3.beach {
+  
+  
+}
+
+col-sm-3-snow {
+  
+}
+
+.row {
+
+}
+
+.btn.btn-primary.btn-pink {
+  font-family: 'Montserrat', Bold;
+  font-weight: bolder;
+  position: static;
+  background-color: #FA6980;
+  border-color: #FA6980;
+  margin-top: -75%;
+}
+
+.card-title.tendencias {
+  margin-top: 20px;
+  font-family: 'Montserrat', Bold;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #2A3037;
+}
+
+.card.tendencias-1 {
+  height: 315px;
+  width: 352px;
+}
+
+.card.tendencias-2 {
+  height: 315px;
+  width: 352px;
+}
+
+/*===Blog Section ====*/
+.blog {
+  margin-top: auto;
+  margin-left: 140px;
+}
+
+
+
+.jumbotron.jumbotron-fluid.city {
+  font-family: 'Montserrat', Bold !important;
+  color: white;
+  height: 430px;
+  width: 720px;
+  background-image: url('../img/articulo_big_01.png');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.jumbotron.jumbotron-fluid.adventure {
+  font-family: 'Montserrat', Bold !important;
+  color: white;
+  height: 430px;
+  width: 720px;
+  background-image: url('../img/articulo_big_02.png');
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.blog-main-title {
+  margin-top: -5%;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.mini-col-blog {
+  margin-left: -200px;
+}
+
+/*.blog-main-article {
+  padding-top: 230px;
+}*/
+
+.blog-text-main {
+ /* margin-top: -5%;*/
+}
+
+/*===Grid system Without Bootstrap==*/
+#grid {
+  margin-top: 20px;
+  display: grid;
+  height: 200px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 20px 5px;
+}
+
+#grid > div {
+  border: 1px solid green;
+  background-color: lime;
+  grid-row-gap: 2px;
+}
+
+60+730+1366
+
